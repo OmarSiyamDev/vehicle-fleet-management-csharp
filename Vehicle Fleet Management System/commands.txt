@@ -1,0 +1,14 @@
+add/+ Car Toyota Camry VIN12345678901234 5 45.00
+add/+ Truck Ford F-150 VIN98765432109876 1500 8000 85.50
+add/+ Motorcycle Yamaha R6 VIN55555555555555 600 35.00
+add/+ ElectricCar Tesla Model3 VIN77777777777777 75 350 60.00
+report
+search VIN12345678901234
+edit VIN12345678901234 Toyota Camry-Hybrid
+followup VIN98765432109876 15.00
+discount VIN77777777777777 5.00
+report
+delete/- VIN55555555555555
+report
+add/+ Car Invalid Data Missing Fields
+delete/- NONEXISTENT123
